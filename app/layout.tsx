@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Saul Dev | Portfolio",
   description:
     "Hi! I'm Saul, a software engineer and frontend web developer based in Mexico. This is my modern and minimalist portfolio where you can find my most outstanding and recent projects, the skills I've mastered, and a way to reach out to me. Lets work together and bring to life your ideas into an amazing product and seamless user experience!",
+  icons: {
+    icon: "/saul-dev-logo.png",
+  },
 };
 
 export default function RootLayout({
