@@ -38,13 +38,30 @@ const Hero = () => {
             Hi!, I&apos;m Saul, a Next.js developer based in Mexico.
           </p>
 
-          <a href="#about">
+          <div
+            onClick={(e) => {
+              e.preventDefault();
+              const target = document.querySelector("#about");
+              if (target) {
+                const topOffset = 100; // Ajusta este valor según sea necesario
+                const elementPosition = target.getBoundingClientRect().top;
+                const offsetPosition =
+                  elementPosition + window.pageYOffset - topOffset;
+
+                window.scrollTo({
+                  top: offsetPosition,
+                  behavior: "smooth",
+                });
+              }
+            }}
+            className="btn"
+          >
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
               position="right"
             />
-          </a>
+          </div>
         </div>
       </div>
     </div>
