@@ -187,33 +187,41 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "next.js",
+    nameImg: "/Next.js_wordmark_dark.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "clerk",
+    img: "/c.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "stripe",
+    nameImg: "/stripe.svg",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "convex",
+    img: "/convex-icon.svg",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "mongodb",
+    nameImg: "/mongodb-wordmark.svg",
+  },
+  {
+    id: 6,
+    name: "three.js",
+    img: "/Three.js_dark.svg",
+    // nameImg: "/mongodb-wordmark.svg",
+  },
+  {
+    id: 7,
+    name: "gsap",
+    img: "/gsap.svg",
+    nameImg: "/G.svg",
+    nameImg2: "/GSAP-1.svg",
   },
 ];
 
