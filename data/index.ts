@@ -247,7 +247,7 @@ export const workExperience = [
   {
     id: 3,
     title: "Freelance FullStack Dev",
-    // desc: "Led the complete development of a music company website for a client, from the initial concept, the design and construction, to deployment on the web.",
+    desc: "Led the complete development of a music company website for a client, from the initial concept, the design and construction, to deployment on the web.",
     className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
