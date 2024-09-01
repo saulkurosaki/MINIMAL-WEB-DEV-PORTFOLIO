@@ -254,7 +254,7 @@ export const workExperience = [
   {
     id: 4,
     title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    desc: "Spearheaded the development of a scalable books recommendation web application from concept to deployment, leveraging modern frontend technologies for better user engagement.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
