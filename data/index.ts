@@ -264,13 +264,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    route: "https://github.com/saulkurosaki/",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/instagram_dark.svg",
+    route: "https://www.instagram.com/saulkurosaki/",
   },
   {
     id: 3,
     img: "/link.svg",
+    route: "https://www.linkedin.com/in/saúl-paredes-fano-b991aa187/",
   },
 ];
