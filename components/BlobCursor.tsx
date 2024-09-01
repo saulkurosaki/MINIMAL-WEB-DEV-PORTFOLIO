@@ -1,5 +1,5 @@
 import { useTrail, animated } from "@react-spring/web";
-import { useRef, useEffect, useCallback } from "react";
+import { useRef, useEffect, useCallback, useState } from "react";
 
 import "@/data/BlobCursor.css";
 
@@ -17,6 +17,7 @@ export default function BlobCursor({
   }));
 
   const ref = useRef();
+  const [isLargeScreen, setIsLargeScreen] = useState(false);
 
   const updatePosition = useCallback(() => {
     if (ref.current) {
@@ -27,6 +28,7 @@ export default function BlobCursor({
   }, []);
 
   const handleMove = (e) => {
+    if (!isLargeScreen) return; // No hacer nada si no es pantalla grande
     const { left, top } = updatePosition();
     const x = e.clientX || (e.touches && e.touches[0].clientX);
     const y = e.clientY || (e.touches && e.touches[0].clientY);
@@ -35,14 +37,18 @@ export default function BlobCursor({
 
   useEffect(() => {
     const handleResize = () => {
+      setIsLargeScreen(window.innerWidth > 768); // Cambia 768 por el tamaño que consideres "mediano"
       updatePosition();
     };
 
     window.addEventListener("resize", handleResize);
+    handleResize(); // Llama a la función al cargar
     return () => {
       window.removeEventListener("resize", handleResize);
     };
   }, [updatePosition]);
+
+  if (!isLargeScreen) return null; // No renderizar si no es pantalla grande
 
   return (
     <div className="container">
