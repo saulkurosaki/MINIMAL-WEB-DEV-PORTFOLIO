@@ -239,16 +239,16 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Computer Science Engineer",
+    desc: "Collaborated with teammates on developing user interfaces along interiorizing the fundamentals of algorithms and data structures time and space complexity.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Freelance FullStack Dev",
+    // desc: "Led the complete development of a music company website for a client, from the initial concept, the design and construction, to deployment on the web.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
