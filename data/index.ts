@@ -9,7 +9,7 @@ export const gridItems = [
   {
     id: 1,
     title:
-      "I excel at creating scalable and stunning designs at first impression and unforgettable user experiences.",
+      "I excel at creating scalable and stunning designs at first impression along unforgettable user experiences.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
