@@ -42,13 +42,6 @@ const Clients = () => {
                     }`}
                   />
                 )}
-                {company.nameImg2 && (
-                  <img
-                    src={company.nameImg2}
-                    alt={company.name}
-                    className="max-md:hidden w-36 relative left-[-103px]"
-                  />
-                )}
               </div>
             </React.Fragment>
           ))}

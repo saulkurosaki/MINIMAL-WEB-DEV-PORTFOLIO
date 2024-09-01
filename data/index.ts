@@ -154,33 +154,38 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Saul's an excelente developer, a real quick learner, always is too comfortable for everyone to work with him thanks to his enthusiasm and good character. Also to mention he's always willing to help anyone who needs it and to give a hand for those needing of that attention, knowledge and kindness.",
+    name: "Adevsays",
+    title: "CodecollabHub CEO",
+    profileImg: "/adevsays_profile.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "My experience working with Saúl Paredes is satisfactory, because its clear that he has a lot of knowledge as a Frontend developer and he is very dedicated to his projects. He puts effort into each project and knows how to work as a teammate in big organization teams. I really liked his way of working, he makes things easier for you, and if there's a problem, he always tries to find the most effective solution possible.",
+    name: "Alvaro Prado",
+    title: "Partner developer in CodecollabHub",
+    profileImg: "/alvaro_prado_profile.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Saul as a developer has been an incredible experience. He's helped me a lot throughout my backend developer journey. Saul's super dedicated and passionate about development, and always looking to learn new things and face challenges to improve as a developer. Always inspiring and motivating others to be the best versions of themselves.",
+    name: "Juan Bedoya",
+    title: "Partner developer in CodecollabHub",
+    profileImg: "/juan_bedoya_profile.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "An amazing, empathic and collaborative developer with great qualities in team working. His ability to lead projects is exemplary, always providing great support and fostering a friendly work environment. His focus on problem solving and his technical ability are admirable, transmitting ideas and suggestions with clarity, therefore generating a great experience as a colleague.",
+    name: "Wilson Osorio",
+    title: "Partner developer in CodecollabHub",
+    profileImg: "/wilson_profile.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Saul have helped me to have an incredibly professional and amazing website for my company that showcases not only the formality it deserves, but more credibility to my organization, therefore taking my entrepreneurship to a next level. He's really kind and always watching the need of his clients.",
+    name: "Isaac Maldonado",
+    title: "Iztac Music Company CEO",
+    profileImg: "iztac_profile.webp",
   },
 ];
 
@@ -214,14 +219,13 @@ export const companies = [
     id: 6,
     name: "three.js",
     img: "/Three.js_dark.svg",
-    // nameImg: "/mongodb-wordmark.svg",
   },
   {
     id: 7,
     name: "gsap",
     img: "/gsap.svg",
-    nameImg: "/G.svg",
-    nameImg2: "/GSAP-1.svg",
+    // nameImg: "/G.svg",
+    // nameImg2: "/GSAP-1.svg",
   },
 ];
 
