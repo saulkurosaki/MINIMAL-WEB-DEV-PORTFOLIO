@@ -5,7 +5,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-32">
+    <div className="pb-20 pt-32 flex flex-col items-center">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -23,7 +23,7 @@ const Hero = () => {
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
       </div>
 
-      <div className="flex justify-center relative my-20 z-10">
+      <div className="flex justify-center relative mt-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
             Dynamic Web Magic with Next.js
@@ -37,32 +37,31 @@ const Hero = () => {
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi!, I&apos;m Saul, a Next.js developer based in Mexico.
           </p>
-
-          <div
-            onClick={(e) => {
-              e.preventDefault();
-              const target = document.querySelector("#about");
-              if (target) {
-                const topOffset = 100; // Ajusta este valor según sea necesario
-                const elementPosition = target.getBoundingClientRect().top;
-                const offsetPosition =
-                  elementPosition + window.pageYOffset - topOffset;
-
-                window.scrollTo({
-                  top: offsetPosition,
-                  behavior: "smooth",
-                });
-              }
-            }}
-            className="btn"
-          >
-            <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </div>
         </div>
+      </div>
+      <div
+        onClick={(e) => {
+          e.preventDefault();
+          const target = document.querySelector("#about");
+          if (target) {
+            const topOffset = 100; // Ajusta este valor según sea necesario
+            const elementPosition = target.getBoundingClientRect().top;
+            const offsetPosition =
+              elementPosition + window.pageYOffset - topOffset;
+
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: "smooth",
+            });
+          }
+        }}
+        className="btn relative z-[60]"
+      >
+        <MagicButton
+          title="Show my work"
+          icon={<FaLocationArrow />}
+          position="right"
+        />
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 .container {
   width: 100%;
   height: 100%;
+  z-index: 50;
 }
 
 .main > div {
@@ -18,8 +19,8 @@
 }
 
 .main > div:nth-child(2) {
-  width: 125px;
-  height: 125px;
+  width: 100px;
+  height: 100px;
 }
 
 .main > div:nth-child(3) {
@@ -51,7 +52,6 @@
   width: 25px;
   height: 25px;
 }
-
 .main {
   position: absolute;
   width: 100%;
