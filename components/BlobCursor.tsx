@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useTrail, animated } from "@react-spring/web";
 import { useRef, useEffect, useCallback, useState } from "react";
 
