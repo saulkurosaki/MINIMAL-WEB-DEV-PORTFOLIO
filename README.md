@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 MINIMAL WEB DEV PORTFOLIO: High-Speed Professional Branding Asset
 
-## Getting Started
+## **STRATEGIC ARCHITECTURE & BUSINESS VALUE**
 
-First, run the development server:
+### 🎯 Identified Market Problem & Value Proposition
+
+> **Core Problem:** The need for a lightweight, extremely fast-loading digital asset that communicates professional capability and contact information instantly, maximizing recruiter engagement.
+>
+> **T-Shape Solution:** A highly optimized, minimal portfolio engineered specifically for **speed and SEO performance**. The strategic goal is to reduce bounce rate and ensure the highest possible **Core Web Vitals** scores, demonstrating a commitment to Front-End quality and technical optimization.
+
+### 📈 Key Metrics, Anti-AI Strategy, and Business Alignment
+
+*   **Performance Priority:** Zero-tolerance for performance degradation; aiming for perfect **FCP/LCP** scores to maximize first impressions and support organic reach.
+*   **Strategy Anti-AI:** The value is proven in the meticulous **optimization of the build process and asset delivery** (often neglected in simple portfolios), validating the specialized skill of *Technical Optimization*.
+*   **Monetization/Value Stream:** Direct value for personal branding; its speed and clarity serve as a high-conversion funnel for securing initial contact (a critical part of the job search process).
+
+---
+
+## **DEEP SOFTWARE ARCHITECTURE**
+
+### 🛠️ Core Technology Stack
+
+| Technology | Role and Strategic Justification |
+| :--- | :--- |
+| **Framework** | Next.js (TypeScript) / ReactJs |
+| **Backend/DB** | None (Static Site Generation/SSG Focus) |
+| **Styling** | Tailwind CSS |
+| **Auth** | None |
+| **AI/Services** | SEO principles, Core Web Vitals Optimization |
+
+### ⚙️ Key Architectural Decisions
+
+1.  **Next.js (SSG):** Chosen explicitly to leverage **Static Site Generation** for ultra-fast loading times, ensuring the site is pre-rendered and instantly available.
+2.  **Tailwind CSS:** Used for its small bundle size and efficient styling, contributing directly to minimized file size and faster Core Web Vitals scores.
+3.  **Optimization Over Features:** The architecture decision was to prioritize **lean code and minimal dependencies** to guarantee peak performance, showcasing strategic restraint.
+
+---
+
+## **T-SHAPE SUPERPOWERS & EXECUTION CHALLENGES**
+
+### 🧠 Strategic Challenges Overcome
+
+*   **Challenge 1:** Achieving **minimal build size** while ensuring professional, modern aesthetics.
+*   **Solution 1:** Strict component modularity and focused use of native web features over heavy third-party libraries.
+*   **Challenge 2:** Ensuring the **metadata and structural SEO** are perfectly tuned for indexing by search engines and recruiters.
+*   **Solution 2:** Meticulous application of meta tags, schema markup, and accessible HTML structure.
+
+### 💻 Local Setup (Quick Start)
 
 ```bash
+# 1. Clone the repository
+git clone https://github.com/saulkurosaki/MINIMAL-WEB-DEV-PORTFOLIO
+
+# 2. Change directory
+cd MINIMAL-WEB-DEV-PORTFOLIO
+
+# 3. Install dependencies
+npm install
+
+# 4. Configure variables de entorno
+# No .env.local file needed for this project.
+
+# 5. Start Development Server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
